@@ -1,0 +1,15 @@
+@media (max-width: 768px){
+	.burger-wrap{
+		position: fixed;
+		right: 0; top: 0;
+		height: 47px;
+		padding: 15px;
+		z-index: 250;
+		.burger{
+			@include burger();
+			&.active{
+				@include burger-to-cross();
+			}
+		}
+	}
+}

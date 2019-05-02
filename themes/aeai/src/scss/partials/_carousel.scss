@@ -1,0 +1,53 @@
+.carousel-wrap{
+    .carousel{
+		//cursor: grab;
+		//height: 100%;
+		//&.active{cursor: grabbing}
+		figure{
+			//width: 100vw;
+			//height: 100vh;
+			body.single &{
+				cursor: move; 
+				cursor: grab;
+				cursor: -moz-grab;
+				cursor: -webkit-grab;
+				
+				&:active { 
+					cursor: grabbing;
+					cursor: -moz-grabbing;
+					cursor: -webkit-grabbing;
+				}
+			}
+		}
+	}
+	.control{
+		body.home &{display: block}
+		display: none;
+		//display: none!important;
+		position: absolute; top: 0;
+		width: 25%; height: 100%;
+		//background: red;
+		
+		&.prev{left: 0; cursor: w-resize;}
+		&.next{right: 0; cursor: e-resize;}
+	}
+
+	// .carousel-close{
+	// 	@include plus(25px, 4px, black);
+	// 	transform: rotate(45deg);
+    //     position: absolute; right: $marge0; top: $marge0;
+	// }
+}
+
+.slick-dots{
+	li{
+		// &.slick-active{
+		// 	button{color: $color1}
+		// }
+		// button{
+		// 	background: transparent;
+		// 	color: $color2;
+		// 	&:hover{color: $color1}
+		// }
+	}
+}

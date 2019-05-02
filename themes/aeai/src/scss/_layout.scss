@@ -1,0 +1,22 @@
+body {
+	background: $bg;
+	margin: 0;
+	padding: 0;
+}
+#page {
+
+}
+#main,
+#footer,
+.row {
+	@include clearfix;
+}
+
+main{
+	padding: 0 $margeS;
+}
+// Grid System
+
+
+/* Sticky footer */
+/*@include sticky-footer( $footerheight, '#page','#main','#footer');*/

@@ -1,0 +1,320 @@
+/*post*/
+#gridder-json-metabox, #gridder-phone-json-metabox{
+  display: none;
+}
+/*term*/
+body.term-php #gridder_json_field, body.term-php #phone_gridder_json_field{
+  display: none;
+} 
+
+.lay-hide-admin-notice{
+  margin-left: 10px;
+}
+
+#wp-link-backdrop{
+  z-index: 159902!important;
+}
+
+#wp-link-wrap{
+  z-index: 159903!important;
+}
+
+.lay-tooltip{
+  cursor: pointer;
+  color: #ddd;
+  border-radius: 18px;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-weight: bold;
+  line-height: 17px;
+  font-size: 12px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.lay-explanation{
+  line-height: 1.2; 
+  margin: 20px 0 0 0; 
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid #e5e5e5;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  /*background: #cafcfc;*/
+  background-color: white;
+}
+
+.lay-explanation p{
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.lay-explanation-inner{
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.lay-explanation ul{
+  font-size: 14px;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.lay-explanation li{
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.lay-explanation li:before{
+  content: '\f147';
+  font: 400 20px/1 dashicons;
+  speak: none;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: -25px;
+  margin-right: 5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none!important;
+}
+
+.lay-explanation *:last-child{
+  margin-bottom: 0;
+}
+
+.lay-explanation *:first-child{
+  margin-top: 0;
+}
+
+.lay-explanation header{
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+
+.lay-explanation header h3{
+  font-size: 14px;
+  padding: 8px 12px;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.lay-explanation h3{
+  font-size: 14px;
+  margin: 20px 0 0 0;
+}
+
+.lay-explanation h2{
+  font-size: 18px;
+  line-height: 1;
+  margin: 30px 0 0 0;
+  padding: 0;
+}
+
+button.lay-explanation-handle, button.lay-explanation-handle:focus, button.lay-explanation-handle:active, button.lay-explanation-handle:hover{
+  border-width: 0;
+  background-color: transparent;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: #aaa;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+button.lay-explanation-handle:hover{
+  color: #777;
+}
+
+.lay-explanation-handle:before{
+  content: '\f142';
+  font: 400 20px/1 dashicons;
+  speak: none;
+  display: inline-block;
+  padding: 8px 10px;
+  top: 0;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none!important;
+}
+
+.lay-explanation.collapsed .lay-explanation-handle:before{
+  content: '\f140';
+}
+
+.lay-explanation.collapsed .lay-explanation-inner{
+  display: none;
+}
+
+/*label style taken from bootstrap*/
+.lay-label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+
+.label-info {
+  background-color: #5bc0de;
+}
+.label-info[href]:hover,
+.label-info[href]:focus {
+  background-color: #31b0d5;
+}
+
+/*popover style taken from bootstrap*/
+
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 159902;
+  display: none;
+  max-width: 276px;
+  padding: 1px;
+  text-align: left;
+  white-space: normal;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.popover.top {
+  margin-top: -10px;
+}
+.popover.right {
+  margin-left: 10px;
+}
+.popover.bottom {
+  margin-top: 10px;
+}
+.popover.left {
+  margin-left: -10px;
+}
+.popover-title {
+  padding: 8px 14px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  border-radius: 5px 5px 0 0;
+}
+.popover-content {
+  padding: 9px 14px;
+}
+.popover > .arrow,
+.popover > .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.popover > .arrow {
+  border-width: 11px;
+}
+.popover > .arrow:after {
+  content: "";
+  border-width: 10px;
+}
+.popover.top > .arrow {
+  bottom: -11px;
+  left: 50%;
+  margin-left: -11px;
+  border-top-color: #999;
+  border-top-color: rgba(0, 0, 0, .25);
+  border-bottom-width: 0;
+}
+.popover.top > .arrow:after {
+  bottom: 1px;
+  margin-left: -10px;
+  content: " ";
+  border-top-color: #fff;
+  border-bottom-width: 0;
+}
+.popover.right > .arrow {
+  top: 50%;
+  left: -11px;
+  margin-top: -11px;
+  border-right-color: #999;
+  border-right-color: rgba(0, 0, 0, .25);
+  border-left-width: 0;
+}
+.popover.right > .arrow:after {
+  bottom: -10px;
+  left: 1px;
+  content: " ";
+  border-right-color: #fff;
+  border-left-width: 0;
+}
+.popover.bottom > .arrow {
+  top: -11px;
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #999;
+  border-bottom-color: rgba(0, 0, 0, .25);
+}
+.popover.bottom > .arrow:after {
+  top: 1px;
+  margin-left: -10px;
+  content: " ";
+  border-top-width: 0;
+  border-bottom-color: #fff;
+}
+.popover.left > .arrow {
+  top: 50%;
+  right: -11px;
+  margin-top: -11px;
+  border-right-width: 0;
+  border-left-color: #999;
+  border-left-color: rgba(0, 0, 0, .25);
+}
+.popover.left > .arrow:after {
+  right: 1px;
+  bottom: -10px;
+  content: " ";
+  border-right-width: 0;
+  border-left-color: #fff;
+}
+
+/*gridder defaults admin panel*/
+
+body.laygridder_page_laygridder-defaults #wpbody-content form input[type="number"],
+body.laygridder_page_laygridder-defaults #wpbody-content form select,
+body.toplevel_page_laygridder-options-page #wpbody-content form input[type="number"],
+body.toplevel_page_laygridder-options-page #wpbody-content form select{
+  width: 100px;
+}
+
+body.laygridder_page_laygridder-defaults #wpbody-content .form-table th,
+body.laygridder_page_laygridder-defaults #wpbody-content .form-table td,
+body.toplevel_page_laygridder-options-page #wpbody-content .form-table th,
+body.toplevel_page_laygridder-options-page #wpbody-content .form-table td{
+  padding: 10px 10px 10px 0;
+}
+
+body.laygridder_page_laygridder-defaults #wpbody-content .form-table,
+body.toplevel_page_laygridder-options-page #wpbody-content .form-table{
+  margin-top: 20px;
+}

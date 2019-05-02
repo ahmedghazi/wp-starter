@@ -1,0 +1,22 @@
+dev:
+    scheme: ftp
+    host: 54.38.40.188
+    port: 21
+    user: aeai
+    pass: Kbi50h$2
+    #check: true
+    path:
+        #local: release/
+        remote: asa/wp-content
+
+
+live:
+    scheme: ftp
+    host: ftp.my-live-server.com
+    port: 21
+    user: user
+    pass: password
+    check: true
+    path:
+        local: release/
+        remote: public_html/

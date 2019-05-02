@@ -1,0 +1,17 @@
+{
+"1.1.0" : "New Filters for Anchor Tags. Elements can now be resized to the left and right edges of your layout, covering the frame. Bugfix: Default Textstyle will not be in use anymore in Texteditors that do not use the Textformats feature. Fixed a qTranslateX issue. Gridder: Improved Color Pickers. Changed Vimeo Regex to be able to use Private Videos. +Post Thumbnail can add Thumbnails of Custom Post Type Posts. Gridder: Changed +Template button to: Use Template because it is not an addable Element.",
+"1.0.1" : "Fixed space top and space bottom not working on Firefox. Fixed gif images not displaying on frontend if WordPress is installed in a sub-folder.",
+"1.0.0" : "Gridder is now React application! New element: +More -> +Stack to have multiple elements on top of each other in one row.",
+"0.1.4" : "When using the filter lg_frontend_img now the link of the image will not be removed anymore",
+"0.1.3" : "Fixed texteditor dropdowns not appearing with latest WP version",
+"0.1.2" : "New filters lg_frontend_rowclass and lg_frontend_elclass",
+"0.1.1" : "From now on everytime a layout is saved, a backup of the last layout is created so you can restore a layout by clicking -Restore last data- in case your JSON was invalidated.",
+"0.1.0" : "Added license key system.",
+"0.0.9" : "Breaking change: get_laygrid() now returns grid instead of echoing it. Use the_laygrid() for echoing. Added flexbox polyfill for older browsers. Added filter for gridder background colors. Added +more -> +shortcode. A few small improvements.",
+"0.0.8" : "Added option: More line-height options. Line-height will be setable for desktop, tablet and phone in unitless and px.",
+"0.0.7" : "Horizontal Lines in +More -> +Horizontal Line. Find settings for this in LayGridder -> Options. Multilanguage compatibility with plugin qtranslate-x. Fixed a bug where laygrid wouldn't show up. HTML ids and classes can now be set for elements and rows by right clicking. HTML classes and ids of elements now sync with custom phone layout too.",
+"0.0.6" : "Custom element types now sync with custom phone layout. New option for tablet specific textformat settings. Fixed textformats not working on admin panel pages without Gridder.",
+"0.0.5" : "Custom post types now included in image link modal. Fixed gridder not working for individual pages",
+"0.0.4" : "When linking an image now there is a list of posts to choose from, Template feature, added italic and bold buttons to minimal texteditor",
+"0.0.3" : "Filter for captions, added more settings for textformats, moved Automatically generated Phone Layout Defaults to Gridder Defaults, new option disable Gridder inputs, new option minimal WYSIWYG editor buttons"
+}

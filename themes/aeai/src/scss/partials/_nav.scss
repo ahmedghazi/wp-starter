@@ -1,0 +1,38 @@
+.access {
+	margin: 0;
+	div {
+		width: 100%;
+	}
+	ul {
+		padding-left: 0;
+		margin: 0 !important;
+		list-style: none;
+		li {
+			position: relative;
+			display: inline-block;
+			vertical-align: middle;
+			a {
+				display: block;
+				padding: 0;
+				margin: 0;
+				text-decoration: none;
+				cursor: pointer;
+				// uncomment if you want dividers
+				// &:after {
+				// 	content: '/';
+				// 	color: $text;
+				// }
+				&:hover,
+				&:focus {
+					color: $hover;
+				}
+			}
+			// &:last-of-type a:after {
+			// 	content: none;
+			// }
+		}
+		
+		
+	}
+	
+}

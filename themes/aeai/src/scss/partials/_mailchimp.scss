@@ -1,0 +1,29 @@
+.mc4wp-form-fields{
+	#mc{
+		&:hover{
+			input{
+				opacity: 1;
+				transform: translateX(0);
+			}
+		}
+		@include flexbox();
+		@include align-items(flex-end);
+		label{
+			line-height: 1em;
+		}
+		input{
+			border:none;
+			background-color: transparent;
+			padding: 0;
+			margin-left: 1em;
+			line-height: 1em;
+			opacity: 0;
+			transform: translateX(-1em);
+			@include anime()
+		}
+		input[type=email]{
+			border-bottom: $border;
+		}
+	}
+	
+}

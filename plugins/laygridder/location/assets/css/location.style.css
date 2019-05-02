@@ -1,0 +1,41 @@
+#locationmanager {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 900px; }
+  #locationmanager select {
+    width: 35%;
+    padding: 3px; }
+
+#locationmanager button.js-delete-location {
+  margin-left: 10px;
+  visibility: hidden; }
+
+#locationmanager td:hover button.js-delete-location {
+  visibility: visible; }
+
+#locationmanager td {
+  white-space: nowrap; }
+
+.lg-location-equal-to {
+  margin: 0 5px; }
+
+.lg-location-select {
+  display: none; }
+
+.js-locations-table {
+  font-size: 14px; }
+
+textarea#lg_locations_json {
+  height: 200px;
+  width: 100%;
+  max-width: 900px;
+  display: none; }
+
+.js-add-location {
+  float: right; }
+
+input.lg-location-hide-editor {
+  margin: 5px 0 0 0 !important; }
+
+input.lg-location-hide-editor:focus {
+  outline: 0 !important; }

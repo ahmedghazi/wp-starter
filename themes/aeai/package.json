@@ -1,0 +1,26 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoerooney/Emi"
+  },
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "flexboxgrid-sass": "^8.0.5",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "*",
+    "gulp-include": "^2.3.1",
+    "gulp-livereload": "*",
+    "gulp-minify-css": "*",
+    "gulp-ruby-sass": "*"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-rtlcss": "^1.0.0",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1"
+  }
+}

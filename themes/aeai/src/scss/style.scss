@@ -1,0 +1,54 @@
+/*!
+Theme Name: SITE
+Theme URI: ahmedghazi.com
+Author: aeai
+AuthorURI: ahmedghazi.com
+Description: themeDescription
+Version: 1.2
+License: The MIT License (MIT)
+License URI: http://opensource.org/licenses/MIT
+Text Domain: aeai
+*/
+
+/* FONTS
+-------------------------- */
+// Uncomment/use this file for self-hosted web fonts
+// @import "fonts/all";
+
+/* RESET & BASE
+------------------ */
+@import "reset";
+@import "mixins";
+@import "variables";
+@import "utils";
+
+
+/* =LAYOUTS
+------------------ */
+@import "vendor/flexboxgrid/flexboxgrid";
+@import "layout";
+@import "header";
+@import "footer";
+
+/* =VENDOR
+------------------ */
+@import "vendor/slickslider/slick";
+
+/* =TYPE
+------------------ */
+@import "fonts/all";
+@import "typography";
+
+/* =COMPONENTS
+------------------ */
+/* Includes password protection for pages and posts, 404 page */
+@import "partials/components";
+@import "partials/forms";
+@import "partials/content";
+
+/* =PROJECT PAGES SPECIFIC
+------------------ */
+@import "pages/all";
+@import "pages/home";
+
+

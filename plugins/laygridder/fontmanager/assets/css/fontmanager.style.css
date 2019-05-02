@@ -1,0 +1,119 @@
+:focus {
+  outline: none; }
+
+.label-info {
+  background-color: #5bc0de; }
+
+.label {
+  display: inline;
+  padding: 0.1em 0.3em 0.1em;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em; }
+
+#fontmanager {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 900px; }
+  #fontmanager .font-type {
+    font-size: 12px; }
+  #fontmanager .table > tbody > tr > td {
+    vertical-align: top; }
+  #fontmanager .row-wrap {
+    background-color: white;
+    font-size: 18px; }
+  #fontmanager .font-table th:last-child {
+    width: 105px; }
+  #fontmanager .panel-footer {
+    padding-right: 9px; }
+  #fontmanager .wrong-file-notice {
+    display: none; }
+  #fontmanager .fontmanager-panel {
+    margin-bottom: 10px; }
+  #fontmanager .js-edit-row[data-type="attachment"] {
+    display: none; }
+  #fontmanager .panel-title-editmode {
+    display: none; }
+  #fontmanager .edit-mode-warning {
+    display: none; }
+  #fontmanager .edit-mode .edit-mode-warning {
+    display: block; }
+  #fontmanager .edit-mode h3.panel-title-editmode {
+    display: block; }
+  #fontmanager .edit-mode .panel-title {
+    display: none; }
+  #fontmanager td button {
+    text-align: left !important; }
+
+#fontmanager_json {
+  width: 100%;
+  max-width: 900px;
+  height: 200px; }
+
+.form-table {
+  display: none; }
+
+.lay-input-modal {
+  display: none; }
+
+.lay-input-modal .background {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 159900; }
+
+.lay-input-modal .panel-title {
+  padding: 0; }
+
+.lay-input-modal .close-modal-btn {
+  position: absolute;
+  right: 10px;
+  top: 7px; }
+
+.lay-input-modal .panel {
+  z-index: 159901;
+  vertical-align: middle;
+  max-width: 700px;
+  max-height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.lay-input-modal .panel-footer .btn {
+  float: right; }
+
+#add-webfont-input-modal .webfont-type-choice-wrap {
+  text-align: center; }
+  #add-webfont-input-modal .webfont-type-choice-wrap button {
+    display: block;
+    margin: 10px auto;
+    width: 220px; }
+  #add-webfont-input-modal .webfont-type-choice-wrap button.js-upload-woff-btn {
+    margin: 0 auto; }
+
+.woff-tooltip {
+  width: 220px;
+  display: inline-block;
+  margin: 10px auto 0 auto;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0); }
+
+#add-webfont-input-modal .lay-webfont-form p {
+  font-size: 16px;
+  margin: 20px 0 2px 0; }
+
+#add-webfont-input-modal .lay-webfont-form p:first-child {
+  margin-top: 0; }
+
+.link-css-modal, .js-css-modal {
+  display: none; }
